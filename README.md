@@ -2,7 +2,7 @@
 
 Next.js Boiler Plate
 
-## Technical Stack
+## Tech Stack
 
 - Next.js (app router)
 - React
@@ -10,3 +10,9 @@ Next.js Boiler Plate
 - Tailwind css
 - Eslint
 - Prettier
+
+## Getting Started
+
+```
+yarn create next-app --example https://github.com/wkdaudwn11/mj-next-app
+```
