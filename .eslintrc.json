@@ -39,7 +39,7 @@
     },
     "project": "./tsconfig.json"
   },
-  "ignorePatterns": ["*.config.js", "*.config.ts"],
+  "ignorePatterns": ["*.config.js", "*.config.ts", "*.config.mjs"],
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-empty-interface": "off",
