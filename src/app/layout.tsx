@@ -1,12 +1,18 @@
-import { Inter } from 'next/font/google';
-
 import type { Metadata } from 'next';
 
 import Providers from '@/components/providers';
 
-import './globals.css';
+import {
+  dmSans,
+  inter,
+  roboto,
+  robotoMono,
+  shadowsIntoLight,
+  titilliumWeb,
+  pretendard,
+} from './fonts';
 
-const inter = Inter({ subsets: ['latin'] });
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'MJ Next App',
@@ -18,8 +24,11 @@ const RootLayout = ({
 }: Readonly<{
   children: React.ReactNode;
 }>) => (
-  <html lang="en">
-    <body className={inter.className}>
+  <html
+    lang="en"
+    className={`${pretendard.variable} ${inter.variable} ${roboto.variable} ${robotoMono.variable} ${dmSans.variable} ${shadowsIntoLight.variable} ${titilliumWeb.variable}`}
+  >
+    <body className="font-pretendard">
       <Providers>{children}</Providers>
     </body>
   </html>
