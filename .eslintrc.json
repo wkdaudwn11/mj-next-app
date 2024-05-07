@@ -71,6 +71,7 @@
         "ignorePropertyModificationsForRegex": ["^state$", "^ctx$"]
       }
     ],
+    "no-nested-ternary": "off",
     "react-hooks/rules-of-hooks": "error",
     "react/display-name": "off",
     "react/function-component-definition": [
