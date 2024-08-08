@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install",
+    "postinstall": "husky install",
+    "format": "prettier --cache --write .",
+    "lint": "eslint --cache .",
     "outdated": "yarn install && yarn outdated"
   },
   "dependencies": {
